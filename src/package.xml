@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JavaScript Promises in Lightning Component</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <types>
+        <members>ApexController</members>
+	<members>ApexControllerTest</members>
+	<members>LongRunJobBatchable</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AuraPromise</members>
+    	<name>StaticResource</name>
+    </types>
+    <types>
+	<members>Account.TotalAmount__c</members>
+	<name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <version>36.0</version>
+</Package>

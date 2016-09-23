@@ -1,0 +1,13 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="public" controller="ApexController">
+    <ltng:require scripts="{!$Resource.AuraPromise}"/>
+
+    <aura:attribute name="recordId" type="String" access="private" />
+
+    <ui:button label="Get Account Owner" press="{!c.getAccountOwner3}" />
+    <ui:outputtext value="Contact " class="boldtext" />
+    <ui:outputtext aura:id="contactName" value="" />
+    <ui:outputtext value=" Account " class="boldtext" />
+    <ui:outputtext aura:id="accountName" value="" />
+    <ui:outputtext value=" Owner " class="boldtext" />
+    <ui:outputtext aura:id="ownerName" value="" />
+</aura:component>
