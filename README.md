@@ -3,7 +3,7 @@ This is a simple implementation of Promises support for Aura framework
 
 The unmanaged package with all the source code is available here https://login.salesforce.com/packaging/installPackage.apexp?p0=04t500000003ofu
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=financialforcedev&repo=apex-mdapi">
+<a href="https://githubsfdeploy.herokuapp.com?owner=mvoronin80&repo=AuraPromise">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
